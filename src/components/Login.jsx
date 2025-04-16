@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { auth } from '../config/firebase'
 import { signInWithEmailAndPassword } from 'firebase/auth'
 import { useNavigate } from 'react-router-dom'
-import { useAuth } from '../auth/AuthContext'
+import { useAuth } from '../auth/authContext'
 
 const Body = styled.div`
   display: flex;
